@@ -8,7 +8,7 @@ function Heading() {
       "click on the numbers to win the game try by all means to avoid the bombs if you click on all numbers you win and if click on the bomb you lose"
     );
   };
-
+  //returning buttons with on click function
   return (
     <div>
       <button onClick={handleClick}>Rules</button>
@@ -20,5 +20,5 @@ function Heading() {
     </div>
   );
 }
-
+//exporting component
 export default Heading;
